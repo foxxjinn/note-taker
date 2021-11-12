@@ -1,0 +1,33 @@
+.header {
+    height: 10vh;
+    background: blueviolet;
+}
+
+.bottom {
+    height: 90vh;
+    background: #fff;
+    display: flex;
+}
+
+.sidebar {
+    width: 10vw;
+    height: 90vh;
+    background: rgb(94, 53, 133);
+    border-right: rgb(214, 220, 233) 3px solid;
+}
+
+.main {
+    border-top: rgb(217, 224, 238) 3px solid;
+    height: 90vh;
+    width: 90vw;
+}
+
+.form-control {
+    display: inline-block;
+    width: 250px;
+}
+
+.main textarea {
+    width: 500px;
+    height: 70vh;
+}
