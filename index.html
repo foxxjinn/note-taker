@@ -16,8 +16,8 @@
             <div class="sidebar"></div>
             <div class="main">
                 <div class="input-group-prepend">
-                    <input type="text" class="form-control m-2" placeholder="" aria-label="" aria-describedby="basic-addon1">
-                    <button class="btn btn-outline-primary m-2">Add</button>
+                    <input type="text" id="subject" class="form-control m-2" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                    <button class="btn btn-outline-primary m-2" v-on:click="update">Add</button>
                     <button class="btn btn-outline-primary m-2">Remove</button>
                 </div>
                 <textarea class="form-control m-2" aria-label="With textarea"></textarea>
